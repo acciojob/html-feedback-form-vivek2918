@@ -8,24 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-<form action="submit-feedback.php" method="post">
+<form action="submit-feedback.js" method="post">
   <h2>Feedback Form</h2>
   
   <label for="name">Name:</label>
-  <input type="color" id="name" name="name" minlength="3" maxlength="50" required>
+  <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
   
   <label for="portfolio">Portfolio:</label>
   <input type="url" id="portfolio" name="portfolio" required>
   
   <label for="favColor">Favorite Color:</label>
-  <select id="favColor" name="favColor">
+<!--   <select type="color" id="favColor" name="favColor">
     <option value="red">Red</option>
     <option value="blue">Blue</option>
     <option value="green">Green</option>
     <option value="yellow">Yellow</option>
     <option value="purple">Purple</option>
-  </select>
-  
+  </select> -->
+  <input type="color" id="favColor" name="facColor">
+	
   <label for="likeness">How much do you like this color?</label>
   <input type="range" id="likeness" name="likeness" min="1" max="100">
   
